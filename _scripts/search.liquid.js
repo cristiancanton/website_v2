@@ -39,7 +39,7 @@ ninja.data = [
         {%- for child in p.children -%}
           {%- unless child.title == 'divider' -%}
             {
-              {%- assign title = child.title | escape | strip -%}
+              {%- assign title = site.data[site.active_lang].strings.navigation[child.title] | default: child.title | escape | strip -%}
               {%- if child.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = child.permalink -%}{%- endif -%}
               id: "dropdown-{{ title | slugify }}",
               title: "{{ title | truncatewords: 13 }}",
@@ -53,7 +53,8 @@ ninja.data = [
         {%- endfor -%}
       {%- else -%}
         {
-          {%- assign title = p.title | escape | strip -%}
+          {%- assign navigation_key = p.page_id | default: p.id | default: p.title -%}
+          {%- assign title = site.data[site.active_lang].strings.navigation[navigation_key] | default: p.title | escape | strip -%}
           {%- if p.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = p.url -%}{%- endif -%}
           id: "nav-{{ title | slugify }}",
           title: "{{ title | truncatewords: 13 }}",
@@ -328,7 +329,7 @@ ninja.data = [
       {%- if l == site.default_lang -%}
         {
           id: 'lang-{{ l }}',
-          title: '{{ l }}',
+          title: '{{ site.data[site.active_lang].strings.language_names[l] | default: l }}',
           section: '{{ site.data[site.active_lang].strings.search.languages }}',
           handler: () => {
             window.location.href = "{{ site.baseurl }}" + updatedUrl;
@@ -337,7 +338,7 @@ ninja.data = [
       {%- else -%}
         {
           id: 'lang-{{ l }}',
-          title: '{{ l }}',
+          title: '{{ site.data[site.active_lang].strings.language_names[l] | default: l }}',
           section: '{{ site.data[site.active_lang].strings.search.languages }}',
           handler: () => {
             window.location.href = "{{ site.baseurl }}/{{ l }}" + updatedUrl;

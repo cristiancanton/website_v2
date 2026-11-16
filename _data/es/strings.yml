@@ -1,0 +1,177 @@
+archive:
+  prefix: un archivo de
+  category_suffix: en esta categoría
+  tag_suffix: con esta etiqueta
+  year_suffix: de este año
+bibliography:
+  abstract: Resumen
+  awarded: Premio
+  blog: Blog
+  book_prefix: En
+  code: Código
+  last_author_prefix: y
+  poster: Póster
+  slides: Diapositivas
+  supp: Material suplementario
+  video: Vídeo
+  website: Sitio web
+blog:
+  navigation_title: blog
+categories:
+  fun: personal
+  work: investigación
+citation:
+  bibtex: 'o como entrada BibTeX:'
+  introduction: 'Si este contenido te ha resultado útil, cítalo así:'
+collections:
+  books: libros
+  posts: artículos
+contact_note: ''
+cv:
+  address: Dirección
+  area: Área
+  awarder: Entidad otorgante
+  awards: Premios
+  basics: Información general
+  certificates: Certificados
+  city: Ciudad
+  countryCode: Código de país
+  courses: Cursos
+  date: Fecha
+  education: Formación
+  email: Correo electrónico
+  endDate: Fecha de finalización
+  fluency: Dominio
+  highlights: Aspectos destacados
+  image: Imagen
+  institution: Institución
+  interests: Intereses
+  issuer: Entidad emisora
+  keywords: Palabras clave
+  label: Cargo
+  language: Idioma
+  languages: Idiomas
+  level: Nivel
+  location: Ubicación
+  name: Nombre
+  network: Red
+  organization: Organización
+  phone: Teléfono
+  position: Cargo
+  postalCode: Código postal
+  present: Actualidad
+  profiles: Perfiles
+  projects: Proyectos
+  publications: Publicaciones
+  publisher: Editorial
+  reference: Referencia
+  references: Referencias
+  region: Región
+  releaseDate: Fecha de publicación
+  score: Calificación
+  skills: Competencias
+  startDate: Fecha de inicio
+  studyType: Titulación
+  summary: Resumen
+  table_of_contents: Índice
+  title: Título
+  url: URL
+  username: Nombre de usuario
+  volunteer: Voluntariado
+  work: Experiencia profesional
+footer:
+  copyright: Derechos de autor
+  last_updated: 'Última actualización:'
+footer_text: Creado con <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
+  y el tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
+latest_posts: artículos recientes
+months:
+  long:
+    january: enero
+    february: febrero
+    march: marzo
+    april: abril
+    may: mayo
+    june: junio
+    july: julio
+    august: agosto
+    september: septiembre
+    october: octubre
+    november: noviembre
+    december: diciembre
+  short:
+    january: ene.
+    february: feb.
+    march: mar.
+    april: abr.
+    may: may.
+    june: jun.
+    july: jul.
+    august: ago.
+    september: sept.
+    october: oct.
+    november: nov.
+    december: dic.
+news: noticias
+newsletter:
+  back: Volver
+  error: Se ha producido un error. Inténtalo de nuevo.
+  subscribe: Suscribirme
+  subscribed: La suscripción se ha completado correctamente.
+  subscribe_to_receive: 'Suscríbete para recibir avisos de nuevos artículos:'
+  too_many_signups: Hay demasiadas suscripciones. Inténtalo más tarde.
+  wait: Espera…
+no_news: Todavía no hay noticias.
+no_posts: Todavía no hay artículos.
+pagination:
+  page: página
+post:
+  created_in: Publicado el
+  created_by: por
+  last_updated: Última actualización el
+references: Referencias
+related_posts:
+  description: 'Otros artículos que pueden interesarte:'
+  title: "¿Te ha gustado este artículo?"
+search:
+  dark_theme:
+    description: Cambia al tema oscuro
+    title: Tema oscuro
+  dropdown: Submenús
+  email: Envía un correo electrónico
+  footer:
+    close: para cerrar
+    navigate: para navegar
+    parent: para volver al nivel anterior
+    select: para seleccionar
+  languages: Idiomas
+  light_theme:
+    description: Cambia al tema claro
+    title: Tema claro
+  navigation: Menú de navegación
+  news: Noticias
+  placeholder: Escribe para buscar
+  posts: Artículos
+  projects: Proyectos
+  socials: Perfiles sociales
+  system_theme:
+    description: Utiliza el tema predeterminado del sistema
+    title: Tema del sistema
+  theme: Tema
+selected_publications: publicaciones seleccionadas
+site_description: Cristian Canton, director asociado del Barcelona Supercomputing
+  Center (BSC).
+navigation:
+  blog: blog
+  publications: publicaciones
+  projects: proyectos
+  repositories: repositorios
+  cv: currículum
+  teaching: docencia
+  profiles: personas
+  dropdown: submenús
+  bookshelf: biblioteca
+language_names:
+  en-us: English
+  ca: Català
+  es: Español

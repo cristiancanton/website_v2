@@ -1,0 +1,177 @@
+archive:
+  prefix: un arxiu de
+  category_suffix: en aquesta categoria
+  tag_suffix: amb aquesta etiqueta
+  year_suffix: d’aquest any
+bibliography:
+  abstract: Resum
+  awarded: Premi
+  blog: Blog
+  book_prefix: A
+  code: Codi
+  last_author_prefix: i
+  poster: Pòster
+  slides: Diapositives
+  supp: Material suplementari
+  video: Vídeo
+  website: Lloc web
+blog:
+  navigation_title: blog
+categories:
+  fun: personal
+  work: recerca
+citation:
+  bibtex: 'o com a entrada BibTeX:'
+  introduction: 'Si aquest contingut us ha estat útil, citeu-lo així:'
+collections:
+  books: llibres
+  posts: articles
+contact_note: ''
+cv:
+  address: Adreça
+  area: Àrea
+  awarder: Entitat atorgant
+  awards: Premis
+  basics: Informació general
+  certificates: Certificats
+  city: Ciutat
+  countryCode: Codi de país
+  courses: Cursos
+  date: Data
+  education: Formació
+  email: Correu electrònic
+  endDate: Data de finalització
+  fluency: Domini
+  highlights: Aspectes destacats
+  image: Imatge
+  institution: Institució
+  interests: Interessos
+  issuer: Entitat emissora
+  keywords: Paraules clau
+  label: Càrrec
+  language: Llengua
+  languages: Llengües
+  level: Nivell
+  location: Ubicació
+  name: Nom
+  network: Xarxa
+  organization: Organització
+  phone: Telèfon
+  position: Càrrec
+  postalCode: Codi postal
+  present: Actualitat
+  profiles: Perfils
+  projects: Projectes
+  publications: Publicacions
+  publisher: Editorial
+  reference: Referència
+  references: Referències
+  region: Regió
+  releaseDate: Data de publicació
+  score: Qualificació
+  skills: Competències
+  startDate: Data d’inici
+  studyType: Titulació
+  summary: Resum
+  table_of_contents: Índex
+  title: Títol
+  url: URL
+  username: Nom d’usuari
+  volunteer: Voluntariat
+  work: Experiència professional
+footer:
+  copyright: Drets d’autor
+  last_updated: 'Darrera actualització:'
+footer_text: Creat amb <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
+  i el tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
+latest_posts: articles recents
+months:
+  long:
+    january: gener
+    february: febrer
+    march: març
+    april: abril
+    may: maig
+    june: juny
+    july: juliol
+    august: agost
+    september: setembre
+    october: octubre
+    november: novembre
+    december: desembre
+  short:
+    january: gen.
+    february: febr.
+    march: març
+    april: abr.
+    may: maig
+    june: juny
+    july: jul.
+    august: ag.
+    september: set.
+    october: oct.
+    november: nov.
+    december: des.
+news: notícies
+newsletter:
+  back: Torna
+  error: S’ha produït un error. Torneu-ho a provar.
+  subscribe: Subscriu-m’hi
+  subscribed: La subscripció s’ha completat correctament.
+  subscribe_to_receive: 'Subscriviu-vos per rebre avisos de nous articles:'
+  too_many_signups: Hi ha massa subscripcions. Torneu-ho a provar més tard.
+  wait: Espereu…
+no_news: Encara no hi ha notícies.
+no_posts: Encara no hi ha articles.
+pagination:
+  page: pàgina
+post:
+  created_in: Publicat el
+  created_by: per
+  last_updated: Darrera actualització el
+references: Referències
+related_posts:
+  description: 'Altres articles que us poden interessar:'
+  title: Us ha agradat aquest article?
+search:
+  dark_theme:
+    description: Canvia al tema fosc
+    title: Tema fosc
+  dropdown: Submenús
+  email: Envia un correu electrònic
+  footer:
+    close: per tancar
+    navigate: per navegar
+    parent: per tornar al nivell anterior
+    select: per seleccionar
+  languages: Llengües
+  light_theme:
+    description: Canvia al tema clar
+    title: Tema clar
+  navigation: Menú de navegació
+  news: Notícies
+  placeholder: Escriviu per cercar
+  posts: Articles
+  projects: Projectes
+  socials: Perfils socials
+  system_theme:
+    description: Utilitza el tema predeterminat del sistema
+    title: Tema del sistema
+  theme: Tema
+selected_publications: publicacions seleccionades
+site_description: Cristian Canton, director associat del Barcelona Supercomputing
+  Center (BSC).
+navigation:
+  blog: blog
+  publications: publicacions
+  projects: projectes
+  repositories: repositoris
+  cv: currículum
+  teaching: docència
+  profiles: persones
+  dropdown: submenús
+  bookshelf: biblioteca
+language_names:
+  en-us: English
+  ca: Català
+  es: Español

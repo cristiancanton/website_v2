@@ -26,7 +26,7 @@ citation:
 collections:
   books: books
   posts: posts
-contact_note: You can even add a little note about which of these is the best way to reach you.
+contact_note: ""
 cv:
   address: Address
   area: Area
@@ -161,4 +161,19 @@ search:
     title: Use system default theme
   theme: Theme
 selected_publications: selected publications
-site_description: A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+site_description: Cristian Canton, Associate Director at the Barcelona Supercomputing Center (BSC).
+
+navigation:
+  blog: blog
+  publications: publications
+  projects: projects
+  repositories: repositories
+  cv: cv
+  teaching: teaching
+  profiles: people
+  dropdown: submenus
+  bookshelf: bookshelf
+language_names:
+  en-us: English
+  ca: Català
+  es: Español

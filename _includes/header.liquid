@@ -60,6 +60,8 @@
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
+              {% assign navigation_key = p.page_id | default: p.id | default: p.title %}
+              {% assign navigation_title = site.data[site.active_lang].strings.navigation[navigation_key] | default: p.title %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
@@ -77,7 +79,7 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    {{- p.title }}
+                    {{- navigation_title }}
                     {% if page.title == p.title or has_active_child %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
@@ -91,7 +93,7 @@
                           class="dropdown-item {% if page.title == child.title %}active{% endif %}"
                           href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}"
                         >
-                          {{- child.title -}}
+                          {{- site.data[site.active_lang].strings.navigation[child.title] | default: child.title -}}
                         </a>
                       {% endif %}
                     {% endfor %}
@@ -108,7 +110,7 @@
                     {%- assign url = p.url -%}
                   {%- endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
-                    {{- p.title }}
+                    {{- navigation_title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
@@ -139,7 +141,7 @@
                     {% if site.country_flag %}
                       <span class="fi fi-{{ other_language | split: "-" | last }}"></span>
                     {% else %}
-                      {{ other_language | upcase }}
+                      {{ site.data[site.active_lang].strings.language_names[other_language] | default: other_language }}
                     {%- endif -%}
                   </a>
                 {% else %}
@@ -147,7 +149,7 @@
                     {% if site.country_flag %}
                       <span class="fi fi-{{ site.default_lang | split: "-" | last }}"></span>
                     {% else %}
-                      {{ site.default_lang | upcase }}
+                      {{ site.data[site.active_lang].strings.language_names[site.default_lang] | default: site.default_lang }}
                     {%- endif -%}
                   </a>
                 {% endif %}
@@ -166,7 +168,7 @@
                   {% if site.country_flag %}
                     <span class="fi fi-{{ site.active_lang | split: "-" | last }}"></span>
                   {% else %}
-                    {{- site.active_lang | upcase }}
+                    {{- site.data[site.active_lang].strings.language_names[site.active_lang] | default: site.active_lang }}
                   {%- endif -%}
                   {% if page.title == p.title %}
                     <span class="sr-only">(current)</span>
@@ -184,7 +186,7 @@
                           {% if site.country_flag %}
                             <span class="fi fi-{{ l | split: "-" | last }}"></span>
                           {% else %}
-                            {{ l | upcase }}
+                            {{ site.data[site.active_lang].strings.language_names[l] | default: l }}
                           {%- endif -%}
                         </a>
                       {% else %}
@@ -192,7 +194,7 @@
                           {% if site.country_flag %}
                             <span class="fi fi-{{ l | split: "-" | last }}"></span>
                           {% else %}
-                            {{ l | upcase }}
+                            {{ site.data[site.active_lang].strings.language_names[l] | default: l }}
                           {%- endif -%}
                         </a>
                       {% endif %}
