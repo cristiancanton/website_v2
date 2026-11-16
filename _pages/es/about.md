@@ -7,7 +7,7 @@ subtitle: Director asociado · Barcelona Supercomputing Center
 
 # Enable these sections as personal content becomes available.
 selected_papers: false
-social: false
+social: true
 announcements:
   enabled: false
 latest_posts:
