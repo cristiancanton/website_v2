@@ -7,7 +7,7 @@ first_name: Cristian
 middle_name:
 last_name: Canton
 keywords: Cristian Canton, Barcelona Supercomputing Center, BSC
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon-32x32.png # image in /assets/img/
 
 url: https://george-gca.github.io # the base hostname & protocol for your site
 baseurl: /multi-language-al-folio # the subpath of your site, e.g. /blog/. Leave blank for root

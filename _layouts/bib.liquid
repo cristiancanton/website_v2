@@ -263,7 +263,11 @@
         {% endif %}
       {% endfor %}
       {% if entry.pdf_high_resolution %}
-        <a href="{{ entry.pdf_high_resolution | escape }}" class="btn btn-sm z-depth-0" role="button">{{ site.data[site.active_lang].strings.bibliography.pdf_high_resolution }}</a>
+        {% if entry.pdf_high_resolution contains '://' %}
+          <a href="{{ entry.pdf_high_resolution | escape }}" class="btn btn-sm z-depth-0" role="button">{{ site.data[site.active_lang].strings.bibliography.pdf_high_resolution }}</a>
+        {% else %}
+          <a href="{{ entry.pdf_high_resolution | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">{{ site.data[site.active_lang].strings.bibliography.pdf_high_resolution }}</a>
+        {% endif %}
       {% endif %}
       {% if site.enable_publication_badges.google_scholar and entry.google_scholar_id %}
         {% assign scholar_id_key = site.data.socials.scholar_userid | append: ':' | append: entry.google_scholar_id %}
