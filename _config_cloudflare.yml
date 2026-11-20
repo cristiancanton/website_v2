@@ -1,0 +1,5 @@
+# Build with _config.yml first, followed by this Cloudflare override.
+baseurl: ""
+encoding: utf-8
+imagemagick:
+  enabled: false
