@@ -74,7 +74,10 @@
           {% endif -%}
         {% endif %}
         {%- if author_is_self -%}
-          <em>{{ site.first_name }} {{ site.last_name }}</em>
+          <em>
+            {{- site.first_name }}
+            {{ site.last_name -}}
+          </em>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
@@ -196,7 +199,7 @@
         {% endif %}
       {% endif %}
       {% if entry.doi %}
-        <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">{{ entry.doi_label | default: "DOI" | escape }}</a>
+        <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">{{ entry.doi_label | default: 'DOI' | escape }}</a>
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
@@ -254,7 +257,9 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
-      {% assign resource_links = 'dataset|Dataset,related_dataset|Related dataset,model|Model,track_one|Competition track 1,track_two|Competition track 2,competition|Competition,summary|Workshop summary' | split: ',' %}
+      {% assign resource_links = 'dataset|Dataset,related_dataset|Related dataset,model|Model,track_one|Competition track 1,track_two|Competition track 2,competition|Competition,summary|Workshop summary'
+        | split: ','
+      %}
       {% for resource in resource_links %}
         {% assign parts = resource | split: '|' %}
         {% assign field = parts[0] %}
@@ -264,9 +269,13 @@
       {% endfor %}
       {% if entry.pdf_high_resolution %}
         {% if entry.pdf_high_resolution contains '://' %}
-          <a href="{{ entry.pdf_high_resolution | escape }}" class="btn btn-sm z-depth-0" role="button">{{ site.data[site.active_lang].strings.bibliography.pdf_high_resolution }}</a>
+          <a href="{{ entry.pdf_high_resolution | escape }}" class="btn btn-sm z-depth-0" role="button">
+            {{- site.data[site.active_lang].strings.bibliography.pdf_high_resolution -}}
+          </a>
         {% else %}
-          <a href="{{ entry.pdf_high_resolution | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">{{ site.data[site.active_lang].strings.bibliography.pdf_high_resolution }}</a>
+          <a href="{{ entry.pdf_high_resolution | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">
+            {{- site.data[site.active_lang].strings.bibliography.pdf_high_resolution -}}
+          </a>
         {% endif %}
       {% endif %}
       {% if site.enable_publication_badges.google_scholar and entry.google_scholar_id %}
@@ -377,7 +386,9 @@
         {% else %}
           {% assign citation = entry.bibtex | hideCustomBibtex %}
         {% endif %}
-        {% highlight bibtex %}{{ citation }}{% endhighlight %}
+        {% highlight bibtex -%}
+        {{- citation -}}
+        {%- endhighlight %}
       </div>
     {% endif %}
 

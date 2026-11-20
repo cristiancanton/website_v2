@@ -26,12 +26,12 @@ categories:
   fun: personal
   work: recerca
 citation:
-  bibtex: 'o com a entrada BibTeX:'
-  introduction: 'Si aquest contingut us ha estat útil, citeu-lo així:'
+  bibtex: "o com a entrada BibTeX:"
+  introduction: "Si aquest contingut us ha estat útil, citeu-lo així:"
 collections:
   books: llibres
   posts: articles
-contact_note: ''
+contact_note: ""
 cv:
   address: Adreça
   area: Àrea
@@ -86,7 +86,7 @@ cv:
   work: Experiència professional
 footer:
   copyright: Drets d’autor
-  last_updated: 'Darrera actualització:'
+  last_updated: "Darrera actualització:"
 footer_text: Creat amb <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
   i el tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
 latest_posts: articles recents
@@ -123,7 +123,7 @@ newsletter:
   error: S’ha produït un error. Torneu-ho a provar.
   subscribe: Subscriu-m’hi
   subscribed: La subscripció s’ha completat correctament.
-  subscribe_to_receive: 'Subscriviu-vos per rebre avisos de nous articles:'
+  subscribe_to_receive: "Subscriviu-vos per rebre avisos de nous articles:"
   too_many_signups: Hi ha massa subscripcions. Torneu-ho a provar més tard.
   wait: Espereu…
 no_news: Encara no hi ha notícies.
@@ -136,7 +136,7 @@ post:
   last_updated: Darrera actualització el
 references: Referències
 related_posts:
-  description: 'Altres articles que us poden interessar:'
+  description: "Altres articles que us poden interessar:"
   title: Us ha agradat aquest article?
 search:
   dark_theme:
