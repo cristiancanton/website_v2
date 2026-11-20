@@ -4,6 +4,11 @@ archive:
   tag_suffix: with this tag
   year_suffix: from this year
 bibliography:
+  book: Book
+  theses: Theses
+  phdthesis: PhD Thesis
+  mastersthesis: Master’s Thesis
+  pdf_high_resolution: High-resolution PDF
   abstract: Abs
   awarded: Awarded
   blog: Blog

@@ -4,6 +4,11 @@ archive:
   tag_suffix: amb aquesta etiqueta
   year_suffix: d’aquest any
 bibliography:
+  book: Llibre
+  theses: Tesis
+  phdthesis: Tesi doctoral
+  mastersthesis: Treball de fi de màster
+  pdf_high_resolution: PDF en alta resolució
   abstract: Resum
   awarded: Premi
   blog: Blog

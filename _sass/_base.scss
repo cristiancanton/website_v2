@@ -736,11 +736,21 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color));
+    border-top: 1px solid currentColor;
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
+  }
+
+  section[aria-labelledby="theses"] {
+    .badge {
+      white-space: normal;
+    }
+
+    &:has(ol.bibliography):not(:has(ol.bibliography > li:not(.unloaded))) {
+      display: none;
+    }
   }
 
   ol.bibliography {
@@ -759,9 +769,9 @@ footer.sticky-bottom {
 
         abbr {
           display: inline-block;
-          background-color: var(--global-theme-color);
+          background-color: $blue-color-dark;
           margin-bottom: 0.5rem;
-          color: var(--global-card-bg-color) !important;
+          color: white;
 
           a {
             color: white;

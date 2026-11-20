@@ -1,6 +1,310 @@
 metadata:
   last_updated: '2026-09-04'
 papers:
+  akzoGjUAAAAJ:TQgYirikUcIC:
+    citations: 2
+    title: "Activity classification"
+    year: "2009"
+  akzoGjUAAAAJ:ufrVoPGSRksC:
+    citations: 22
+    title: "Audiovisual event detection towards scene understanding"
+    year: "2009"
+  akzoGjUAAAAJ:isC4tDSrTZIC:
+    citations: 1
+    title: "Inclusion of video information for detection of acoustic events using the fuzzy integral"
+    year: "2008"
+  akzoGjUAAAAJ:IjCSPb-OGe4C:
+    citations: 38
+    title: "Audiovisual head orientation estimation with particle filtering in multisensor scenarios"
+    year: "2007"
+  akzoGjUAAAAJ:kRWSkSYxWN8C:
+    citations: 77
+    title: "Automated red teaming with goat: the generative offensive agent tester"
+    year: "2024"
+  akzoGjUAAAAJ:mvPsJ3kp5DgC:
+    citations: 23416
+    title: "The llama 3 herd of models"
+    year: "2024"
+  akzoGjUAAAAJ:eMMeJKvmdy0C:
+    citations: 83
+    title: "On responsible machine learning datasets emphasizing fairness, privacy and regulatory norms with examples in biometrics and healthcare"
+    year: "2024"
+  akzoGjUAAAAJ:eflP2zaiRacC:
+    citations: 15
+    title: "Fairness-aware meta-learning via nash bargaining"
+    year: "2024"
+  akzoGjUAAAAJ:LPZeul_q3PIC:
+    citations: 7
+    title: "Towards red teaming in multimodal and multilingual translation"
+    year: "2024"
+  akzoGjUAAAAJ:tS2w5q8j5-wC:
+    citations: 3
+    title: "Data-driven but privacy-conscious: Pedestrian dataset de-identification via full-body person synthesis"
+    year: "2024"
+  akzoGjUAAAAJ:sSrBHYA8nusC:
+    citations: 4538
+    title: "Code llama: Open foundation models for code"
+    year: "2023"
+  akzoGjUAAAAJ:4fKUyHm3Qg0C:
+    citations: 27408
+    title: "Llama 2: Open foundation and fine-tuned chat models"
+    year: "2023"
+  akzoGjUAAAAJ:geHnlv5EZngC:
+    citations: 21
+    title: "Vpa: Fully test-time visual prompt adaptation"
+    year: "2023"
+  akzoGjUAAAAJ:vRqMK49ujn8C:
+    citations: 63
+    title: "The Casual Conversations V2 Dataset: A diverse, large benchmark for measuring fairness and robustness in audio/vision/speech models"
+    year: "2023"
+  akzoGjUAAAAJ:tOudhMTPpwUC:
+    citations: 6
+    title: "Casual Conversations v2: Designing a large consent-driven dataset to measure algorithmic bias and robustness"
+    year: "2022"
+  akzoGjUAAAAJ:08ZZubdj9fEC:
+    citations: 140
+    title: "A whac-a-mole dilemma: Shortcuts come in multiples where mitigating one amplifies others"
+    year: "2023"
+  akzoGjUAAAAJ:p2g8aNsByqUC:
+    citations: 16
+    title: "Affective signals in a social media recommender system"
+    year: "2022"
+  akzoGjUAAAAJ:OU6Ihb5iCvQC:
+    citations: 123
+    title: "Generating high fidelity data from low-density regions using diffusion models"
+    year: "2022"
+  akzoGjUAAAAJ:9vf0nzSNQJEC:
+    citations: 26
+    title: "Pixinwav: Residual steganography for hiding pixels in audio"
+    year: "2022"
+  akzoGjUAAAAJ:uWQEDVKXjbEC:
+    citations: 21
+    title: "Results and findings of the 2021 image similarity challenge"
+    year: "2022"
+  akzoGjUAAAAJ:dshw04ExmUIC:
+    citations: 68
+    title: "The 2021 image similarity dataset and challenge"
+    year: "2021"
+  akzoGjUAAAAJ:abG-DnoFyZgC:
+    citations: 14
+    title: "Adversarial evaluation of multimodal models under realistic gray box assumption"
+    year: "2020"
+  akzoGjUAAAAJ:KxtntwgDAa4C:
+    citations: 2
+    title: "Localized uncertainty attacks"
+    year: "2021"
+  akzoGjUAAAAJ:EUQCXRtRnyEC:
+    citations: 38
+    title: "Adversarial collision attacks on image hashing functions"
+    year: "2020"
+  akzoGjUAAAAJ:CHSYGLWDkRkC:
+    citations: 165
+    title: "Towards measuring fairness in ai: the casual conversations dataset"
+    year: "2021"
+  akzoGjUAAAAJ:1sJd4Hv_s6UC:
+    citations: 48
+    title: "Exposing vulnerabilities of deepfake detection systems with robust attacks"
+    year: "2022"
+  akzoGjUAAAAJ:b0M2c_1WBrUC:
+    citations: 185
+    title: "Adversarial threats to deepfake detection: A practical perspective"
+    year: "2021"
+  akzoGjUAAAAJ:pyW8ca7W8N0C:
+    citations: 17
+    title: "Deep poisoning: Towards robust image data sharing against visual disclosure"
+    year: "2021"
+  akzoGjUAAAAJ:bFI3QPDXJZMC:
+    citations: 95
+    title: "Preserving integrity in online social networks"
+    year: "2022"
+  akzoGjUAAAAJ:BwyfMAYsbu0C:
+    citations: 2171
+    title: "The DeepFake Detection Challenge (DFDC) Dataset"
+    year: "2020"
+  akzoGjUAAAAJ:a0OBvERweLwC:
+    citations: 1006
+    title: "The Deepfake Detection Challenge (DFDC) Preview Dataset"
+    year: "2019"
+  akzoGjUAAAAJ:yD5IFk8b50cC:
+    citations: 115
+    title: "Hate speech in pixels: Detection of offensive memes towards automatic moderation"
+    year: "2019"
+  akzoGjUAAAAJ:NMxIlDl6LWMC:
+    citations: 38
+    title: "Towards social pattern characterization in egocentric photo-streams"
+    year: "2018"
+  akzoGjUAAAAJ:O3NaXMp0MMsC:
+    citations: 173
+    title: "Eye in-painting with exemplar generative adversarial networks"
+    year: "2018"
+  akzoGjUAAAAJ:YFjsv_pBGBYC:
+    citations: 5
+    title: "Social style characterization from egocentric photo-streams"
+    year: "2017"
+  akzoGjUAAAAJ:hMod-77fHWUC:
+    citations: 8
+    title: "Disentangling motion, foreground and background features in videos"
+    year: "2017"
+  akzoGjUAAAAJ:JV2RwH3_ST0C:
+    citations: 658
+    title: "Salgan: Visual saliency prediction with generative adversarial networks"
+    year: "2017"
+  akzoGjUAAAAJ:bEWYMUwI8FkC:
+    citations: 1275
+    title: "Training deep networks for facial expression recognition with crowd-sourced label distribution"
+    year: "2016"
+  akzoGjUAAAAJ:iH-uZ7U-co4C:
+    citations: 241
+    title: "Emotion recognition in the wild from videos using images"
+    year: "2016"
+  akzoGjUAAAAJ:RHpTSmoSYBkC:
+    citations: 616
+    title: "Learning by tracking: Siamese CNN for robust target association"
+    year: "2016"
+  akzoGjUAAAAJ:mVmsd5A6BfQC:
+    citations: 32
+    title: "Motion Capture Technologies for Pose Estimation"
+    year: "2012"
+  akzoGjUAAAAJ:aqlVkmm33-oC:
+    citations: 6
+    title: "Multi-camera multi-object voxel-based Monte Carlo 3D tracking strategies"
+    year: "2011"
+  akzoGjUAAAAJ:4TOpqqG69KYC:
+    citations: 22
+    title: "Human motion capture using scalable body models"
+    year: "2011"
+  akzoGjUAAAAJ:QIV2ME_5wuYC:
+    citations: 21
+    title: "Acoustic event detection based on feature-level fusion of audio and video modalities"
+    year: "2011"
+  akzoGjUAAAAJ:3fE2CSJIrl8C:
+    citations: 68
+    title: "Image and Video Processing Tools for HCI"
+    year: "2009"
+  akzoGjUAAAAJ:Zph67rFs4hoC:
+    citations: 2
+    title: "Virtual view appearance representation for human motion analysis in multi-view environments"
+    year: "2010"
+  akzoGjUAAAAJ:8k81kl-MbHgC:
+    citations: 26
+    title: "Marker-based human motion capture in multiview sequences"
+    year: "2010"
+  akzoGjUAAAAJ:qxL8FJ1GzNcC:
+    citations: 1
+    title: "Spatio-temporal alignment and hyperspherical radon transform for 3D gait recognition in multi-view environments"
+    year: "2010"
+  akzoGjUAAAAJ:KlAtU1dfN6UC:
+    citations: 0
+    title: "Real-time 3D multi-person tracking using Monte Carlo surface sampling"
+    year: "2010"
+  akzoGjUAAAAJ:UebtZRa9Y70C:
+    citations: 5
+    title: "Towards a fair evaluation of 3D human pose estimation algorithms"
+    year: "2009"
+  akzoGjUAAAAJ:ULOm3_A8WrAC:
+    citations: 1
+    title: "Estimation of Head Pose"
+    year: "2009"
+  akzoGjUAAAAJ:Se3iqnhoufwC:
+    citations: 15
+    title: "Towards a low cost multi-camera marker based human motion capture system"
+    year: "2009"
+  akzoGjUAAAAJ:YsMSGLbcyi4C:
+    citations: 12
+    title: "Improving detection of acoustic events using audiovisual data and feature level fusion"
+    year: "2009"
+  akzoGjUAAAAJ:eQOLeE2rZwMC:
+    citations: 17
+    title: "Voxel based annealed particle filtering for markerless 3D articulated motion capture"
+    year: "2009"
+  akzoGjUAAAAJ:2osOgNQ5qMEC:
+    citations: 16
+    title: "Particle filtering and sparse sampling for multi-person 3D tracking"
+    year: "2008"
+  akzoGjUAAAAJ:dhFuZR0502QC:
+    citations: 19
+    title: "Fusion of audio and video modalities for detection of acoustic events"
+    year: "2008"
+  akzoGjUAAAAJ:9yKSN-GCB0IC:
+    citations: 23
+    title: "Exploiting structural hierarchy in articulated objects towards robust motion capture"
+    year: "2008"
+  akzoGjUAAAAJ:roLk4NBRz8UC:
+    citations: 11
+    title: "Multimodal real-time focus of attention estimation in smartrooms"
+    year: "2008"
+  akzoGjUAAAAJ:hqOjcs7Dif8C:
+    citations: 13
+    title: "Audio-driven human body motion analysis and synthesis"
+    year: "2008"
+  akzoGjUAAAAJ:_FxGoFyzp5QC:
+    citations: 36
+    title: "An audio-driven dancing avatar"
+    year: "2008"
+  akzoGjUAAAAJ:M3ejUd6NZC8C:
+    citations: 0
+    title: "Analysis and synthesis of multiview audio-visual dance figures"
+    year: "2008"
+  akzoGjUAAAAJ:zYLM7Y9cAGgC:
+    citations: 16
+    title: "Flexible test-bed for unusual behavior detection"
+    year: "2007"
+  akzoGjUAAAAJ:qjMakFHDy7sC:
+    citations: 31
+    title: "Head orientation estimation using particle filtering in multiview scenarios"
+    year: "2007"
+  akzoGjUAAAAJ:UeHWp8X0CEIC:
+    citations: 19
+    title: "Multi-person tracking strategies based on voxel analysis"
+    year: "2007"
+  akzoGjUAAAAJ:d1gkVwhDpl0C:
+    citations: 25
+    title: "Multi-person 3D tracking with particle filters on voxels"
+    year: "2007"
+  akzoGjUAAAAJ:W7OEmFMy1HYC:
+    citations: 29
+    title: "Multimodal head orientation towards attention tracking in smartrooms"
+    year: "2007"
+  akzoGjUAAAAJ:u5HHmVD_uO8C:
+    citations: 64
+    title: "Human model and motion based 3D action recognition in multiple view scenarios"
+    year: "2006"
+  akzoGjUAAAAJ:LkGwnXOMwfcC:
+    citations: 18
+    title: "Head pose detection based on fusion of multiple viewpoint information"
+    year: "2006"
+  akzoGjUAAAAJ:Y0pCki6q_DkC:
+    citations: 14
+    title: "UPC audio, video and multimodal person tracking systems in the CLEAR evaluation campaign"
+    year: "2006"
+  akzoGjUAAAAJ:Tyk-4Ss8FVUC:
+    citations: 16
+    title: "Fusion of multiple viewpoint information towards 3D face robust orientation detection"
+    year: "2005"
+  akzoGjUAAAAJ:WF5omc3nYNoC:
+    citations: 13
+    title: "Projective Kalman filter: multiocular tracking of 3D locations towards scene understanding"
+    year: "2005"
+  akzoGjUAAAAJ:u-x6o8ySG0sC:
+    citations: 23
+    title: "Towards a Bayesian approach to robust finding correspondences in multiple view geometry environments"
+    year: "2005"
+  akzoGjUAAAAJ:MXK_kJrjxJIC:
+    citations: 4
+    title: "Evaluation of the efficiency of robust anisotropic diffusion schemes"
+    year: "2002"
+  akzoGjUAAAAJ:kNdYIx-mwKoC:
+    citations: 0
+    title: "Fingerprint representation and matching using redundant expansions"
+    year: ""
+  akzoGjUAAAAJ:5nxA0vEk-isC:
+    citations: 3
+    title: "Efficient algorithm for impulsive noise reduction"
+    year: "2001"
+  akzoGjUAAAAJ:hkOj_22Ku90C:
+    citations: 37
+    title: 'The llama 4 herd: Architecture, training, evaluation, and deployment notes'
+    year: '2026'
   qc6CJjYAAAAJ:-1WLWRmjvKAC:
     citations: 4
     title: THE DULONG-PETIT LAW OF SPECIFIC HEATS
